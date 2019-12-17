@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery.list;
 
-class Node {
+final class Node {
 
     private int value;
     Node prev, next;
