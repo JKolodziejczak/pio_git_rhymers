@@ -1,13 +1,13 @@
 package edu.kis.vh.nursery;
 
-public class HanoiRhymer extends DefaultCountingOutRhymer {
+public final class HanoiRhymer extends DefaultCountingOutRhymer {
 
     private int totalRejected = 0;//poprawione
 
     int reportRejected() {
         return totalRejected;
     }
-
+    @Override
     public void countIn(int in) {
         if (!callCheck() && in > peekaboo()) //poprawione
             totalRejected++;
