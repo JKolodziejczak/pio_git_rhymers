@@ -10,7 +10,7 @@ public final class IntLinkedList {
             last = new Node(i);
         else {
             last.next = new Node(i);
-            last.next.prev = last;
+            last.getNext().setPrev(last);
             last = last.next;
         }
     }
@@ -33,7 +33,7 @@ public final class IntLinkedList {
         if (isEmpty())
             return -1;
         int ret = last.getValue();
-        last = last.prev;
+        last = last.getPrev();
         return ret;
     }
 

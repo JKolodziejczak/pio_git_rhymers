@@ -9,11 +9,27 @@ final class Node {
         setValue(i);
     }
 
-	public int getValue() {
+	int getValue() {
 		return value;
 	}
 
-	public void setValue(int value) {
+	private void setValue(int value) {
 		this.value = value;
+	}
+
+	Node getPrev() {
+		return prev;
+	}
+
+	void setPrev(Node prev) {
+		this.prev = prev;
+	}
+
+	Node getNext() {
+		return next;
+	}
+
+	void setNext(Node next) {
+		this.next = next;
 	}
 }

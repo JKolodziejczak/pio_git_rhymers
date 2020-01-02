@@ -16,4 +16,4 @@ public final class HanoiRhymer extends DefaultCountingOutRhymer {
     }
 }
 
-//kombinacja tych klawiszy przechodzi odpowiednio do poprzedniego lub następnego słowa. W intellij odpowiednikiem alt + strzałka jest ctrl + strzałka.
+//W Eclipse kombinacja tych klawiszy (alt+strzałka lewo/prawo) przechodzi odpowiednio do poprzedniego lub następnego słowa. W Intellij odpowiednikiem alt + strzałka jest ctrl + strzałka.
