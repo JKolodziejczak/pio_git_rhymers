@@ -4,10 +4,6 @@ import edu.kis.vh.nursery.IntArrayStackInterface;
 
 public class IntArrayStack implements IntArrayStackInterface {
 
-    public int getTotal() {
-        return total;
-    }
-
     public static final int SIZE = 12;
     private static final int RETURN_NUMBER = 0;
     private final int[] NUMBERS = new int[SIZE];

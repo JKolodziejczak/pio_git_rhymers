@@ -4,18 +4,14 @@ import edu.kis.vh.nursery.stackAndList.IntArrayStack;
 
 public class DefaultCountingOutRhymer {
 
-    private IntArrayStack stack;
+    private IntArrayStackInterface stack;
 
-    public DefaultCountingOutRhymer(IntArrayStack stack) {
+    public DefaultCountingOutRhymer(IntArrayStackInterface stack) {
         this.stack = stack;
     }
 
     public DefaultCountingOutRhymer() {
         this.stack = new IntArrayStack();
-    }
-
-    public int getTotal() {
-        return stack.getTotal();
     }
 
     public void countIn(int in) {
